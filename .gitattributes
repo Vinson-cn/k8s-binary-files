@@ -1,0 +1,7 @@
+kube* filter=lfs diff=lfs merge=lfs -text
+kube-apiserver filter=lfs diff=lfs merge=lfs -text
+kube-controller-manager filter=lfs diff=lfs merge=lfs -text
+kubectl filter=lfs diff=lfs merge=lfs -text
+kube-scheduler filter=lfs diff=lfs merge=lfs -text
+node/kubelet filter=lfs diff=lfs merge=lfs -text
+node/kube-proxy filter=lfs diff=lfs merge=lfs -text
